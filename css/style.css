@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+
+.barra{
+    background-color: white;
+}
+.titolo{
+     display: inline;
+     justify-content: center;
+}
+
+
+.sfondo{
+    background-color: blue;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 1%;
+    margin-top: 40px;
+    
+    
+}
