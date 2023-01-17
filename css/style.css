@@ -30,7 +30,7 @@
 .container{
     background-color: white;
     width: 800px;
-    height: 800px;
+    height: 600px;
     margin: auto;
     border-radius: 1%;
     margin-top: 40px;
@@ -71,6 +71,10 @@ width: 80%;
     color: rgb(78, 77, 77);
     margin-top: 25px;
 }
+.check{
+    color: rgb(78, 77, 77);
+    margin-top: 10px;
+}
 .check:before{
     content: '\2713';
 }
@@ -97,5 +101,11 @@ width: 80%;
 }
 #button-orange{
     background-color: rgb(173, 113, 0);
+}
+#button-pink{
+    background-color: palevioletred;
+}
+#button-green2{
+    background-color: rgb(169, 201, 123);
 }
 /* ---->BOTTONI<---- */
