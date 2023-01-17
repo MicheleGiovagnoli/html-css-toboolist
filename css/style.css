@@ -18,7 +18,7 @@
 
 /* ---->SFONDO<---- */
 .sfondo{
-    background-color: blue;
+    background-color: rgb(75, 174, 240);
     height: 1000px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,8 +29,8 @@
 /* ---->CONTAINER<---- */
 .container{
     background-color: white;
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
     margin: auto;
     border-radius: 1%;
     margin-top: 40px;
@@ -41,7 +41,7 @@
 /* ---->BOTTONI ESTERNI<---- */
 .button1{
     background-color: #2ba7fa;
-    margin-left: 40px;
+    margin-left: 60px;
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 10px;
@@ -59,7 +59,7 @@
 /* ---->BOTTONI ESTERNI<---- */
 
 
-/* ---->"NEW TASK"<---- */
+/* ---->"TITLE2"<---- */
 .container2{
 margin: auto;
 width: 80%;
@@ -69,11 +69,12 @@ width: 80%;
 }
 .title2{
     color: rgb(78, 77, 77);
+    margin-top: 25px;
 }
 .check:before{
     content: '\2713';
 }
-/* ---->"NEW TASK"<---- */
+/* ---->"TITLE2"<---- */
 
 
 /* ---->BOTTONI<---- */
@@ -87,5 +88,14 @@ width: 80%;
 
 #button-blu{
     background-color: #2ba7fa;
+}
+#button-purple{
+    background-color: rgb(83, 55, 83);
+}
+#button-green{ 
+    background-color: rgb(41, 177, 132);
+}
+#button-orange{
+    background-color: rgb(173, 113, 0);
 }
 /* ---->BOTTONI<---- */
