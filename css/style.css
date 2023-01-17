@@ -4,6 +4,8 @@
     box-sizing: border-box;
 } 
 
+
+/* ---->HEADER<---- */
 .barra{
     background-color: white;
 }
@@ -11,14 +13,20 @@
      display: inline;
      justify-content: center;
 }
+/* ---->HEADER<---- */
 
 
+/* ---->SFONDO<---- */
 .sfondo{
     background-color: blue;
     height: 1000px;
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* ---->SFONDO<---- */
+
+
+/* ---->CONTAINER<---- */
 .container{
     background-color: white;
     width: 500px;
@@ -27,25 +35,31 @@
     border-radius: 1%;
     margin-top: 40px;
 }
+/* ---->CONTAINER<---- */
 
+
+/* ---->BOTTONI ESTERNI<---- */
 .button1{
     background-color: #2ba7fa;
     margin-left: 40px;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-size: 13px;
-    padding: 10px 20px;
+    font-size: 10px;
+    padding: 10px 10px;
     border-radius: 5px;
     border: white;
     
 }
 .button2{
-    font-size: 13px;
-    padding: 10px 20px;
+    font-size: 10px;
+    padding: 10px 10px;
     border-radius: 5px;
     border: white;
 }
+/* ---->BOTTONI ESTERNI<---- */
 
+
+/* ---->"NEW TASK"<---- */
 .container2{
 margin: auto;
 width: 80%;
@@ -56,3 +70,22 @@ width: 80%;
 .title2{
     color: rgb(78, 77, 77);
 }
+.check:before{
+    content: '\2713';
+}
+/* ---->"NEW TASK"<---- */
+
+
+/* ---->BOTTONI<---- */
+.genericbutton{
+    border-radius: 15px;
+    border: white;
+    color: white;
+    padding: 5px 5px;
+    font-size: 10px;
+}
+
+#button-blu{
+    background-color: #2ba7fa;
+}
+/* ---->BOTTONI<---- */
