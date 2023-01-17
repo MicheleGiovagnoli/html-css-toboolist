@@ -36,9 +36,23 @@
     font-size: 13px;
     padding: 10px 20px;
     border-radius: 5px;
+    border: white;
+    
 }
 .button2{
     font-size: 13px;
     padding: 10px 20px;
     border-radius: 5px;
+    border: white;
+}
+
+.container2{
+margin: auto;
+width: 80%;
+}
+.title2:before{
+    content: '\2714';
+}
+.title2{
+    color: rgb(78, 77, 77);
 }
