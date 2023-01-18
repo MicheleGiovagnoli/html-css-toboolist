@@ -11,6 +11,10 @@
 }
 .titolo{
      display: inline;
+     vertical-align: middle;
+}
+.logo{
+    vertical-align: middle;
 }
 /* ---->HEADER<---- */
 
